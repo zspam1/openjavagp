@@ -7,5 +7,5 @@ FROM gitpod/workspace-full-vnc
 # More information: https://www.gitpod.io/docs/config-docker/
 RUN sudo apt-get update \
     && sudo apt install -y iputils-ping \
-    && rm -rf /var/lib/apt/lists/*
+    && sudo rm -rf /var/lib/apt/lists/*
 RUN sudo mkdir /zph
