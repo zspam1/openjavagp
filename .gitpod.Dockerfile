@@ -8,4 +8,4 @@ FROM gitpod/workspace-full-vnc
 RUN sudo apt-get update \
     && sudo apt install -y iputils-ping \
     && sudo rm -rf /var/lib/apt/lists/*
-RUN sudo mkdir /zph
+# RUN sudo mkdir /zphll /
